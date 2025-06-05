@@ -16,4 +16,4 @@ Identify and analyze phishing indicators in a suspicious email sample to underst
 
  Outcome  
 Developed awareness about phishing tactics, spoofing detection, and social engineering techniques.
-Author: Suhani Pandey
+ # Author: Suhani Pandey
