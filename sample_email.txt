@@ -1,0 +1,15 @@
+From: support@paypa1.com
+To: you@example.com
+Subject: URGENT: Your Account Will Be Suspended
+
+Dear Customer,
+
+Immediate Action Required!
+
+You're account is in danger of being locked. Kindly update informations now.
+
+[Update Now] (http://malicious-site.ru/login)
+
+Your account will be locked until we receive your response.
+
+Attachment: invoice_123456.pdf
