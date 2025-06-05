@@ -1,0 +1,45 @@
+# Task 2: Phishing Email Analysis and Threat Indicators
+
+Objective  
+Analyze a phishing email and identify common attack traits such as spoofing, suspicious links, poor grammar, and social engineering tactics.
+
+ Tools Used  
+- Sample phishing email (from PhishBank)  
+- [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)  
+- Google Chrome (for link inspection)
+
+ Email Overview  
+Subject: **“URGENT: Your Account Will Be Suspended”**  
+Sender: **support@paypa1.com**  
+Claims to be from PayPal but uses a fake domain name.
+
+ Phishing Indicators
+
+| Indicator                         | Observation                                                                 |
+|----------------------------------|------------------------------------------------------------------------------|
+| 🧑‍💻 Spoofed Email Address        | `support@paypa1.com` instead of `@paypal.com`                               |
+| 🕵️ Header Mismatch               | `Reply-To` is different from `From` domain; IP location unrelated to PayPal |
+| 🔗 Suspicious Link               | Link text says "Update Now" but points to `http://malicious-site.ru/login` |
+| 📎 Attachment                    | PDF attachment claiming to be an invoice; filename was `invoice_123456.pdf` |
+| 📢 Urgent Language               | Phrases like "Immediate Action Required" and "Your account will be locked"  |
+| ✍️ Poor Grammar/Spelling         | “You’re account is in danger. Kindly update informations now.”              |
+
+
+
+ Screenshots  
+> ![Phishing Email Screenshot](screenshots/email_sample.png)
+
+
+
+ Key Learnings  
+
+- Always verify email domain before trusting requests.
+- Header analysis can reveal inconsistencies in IPs, `Reply-To`, and `Return-Path`.
+- Hovering over links helps detect mismatched/malicious URLs.
+- Many phishing emails use fear and urgency to manipulate users.
+- Grammar and spelling errors are often clear signs of phishing.
+
+ Conclusion  
+
+This exercise demonstrated how cyber attackers craft phishing emails to exploit user trust. By carefully analyzing sender identity, headers, links, and language, we can detect and avoid falling for such traps. These skills are critical for cyber defense and awareness.
+
