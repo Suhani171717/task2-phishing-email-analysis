@@ -7,9 +7,8 @@ Identify and analyze phishing indicators in a suspicious email sample to underst
 - `report.md` with detailed phishing analysis  
 - Screenshots of phishing email and header analysis  
 - Sample phishing email content  
-- Task explained step-by-step
 
- Tools Used  
+Tools Used  
 - MxToolbox Email Header Analyzer  
 - Sample email from PhishBank  
 - Chrome browser (for link inspection)
